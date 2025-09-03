@@ -1,0 +1,19 @@
+public class Comments {
+    public static void main(String[] args) {
+       
+        System.out.println("Comments\n");
+       
+        System.out.println("There are three types of comments in Java:\n" +
+            "1. Line comments - start with two forward slashes ( // ) and continue to the end of the current line. " +
+            "A line comment can appear on a line by itself or at the end (and to the right) of a line following executable code. " +
+            "Line comments do not require an ending symbol.\n");
+       
+        System.out.println("2. Block comments - start with a forward slash and an asterisk ( /* ) and end with an asterisk and a forward slash ( */ ). " +
+            "A block comment can appear on a line by itself, on a line before executable code, or on a line after executable code. " +
+            "Block comments also can extend across as many lines as needed.\n");
+       
+        System.out.println("3. Javadoc comments - are a special case of block comments called documentation comments because they " +
+            "are used to automatically generate nicely formatted program documentation with a program named javadoc. " +
+            "Javadoc comments begin with a forward slash and two asterisks ( /** ) and end with an asterisk and a forward slash ( */ ).");
+    }
+}
