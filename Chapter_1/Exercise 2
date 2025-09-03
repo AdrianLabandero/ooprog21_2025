@@ -1,0 +1,10 @@
+public class FavoriteSong {
+ 
+  public static void main(String[] args) {
+  
+  System.out.println(i + " \"Sometimes we laugh and sometimes we cry, but I guess you know now, baby\" ");
+	System.out.println(i + " \"We took a trip, now we on your block and it's like a ghost town, baby" ");
+	System.out.println(i + " \"Where do these n*ggas be at when they say they doin' all this and all that?" ");
+  System.out.println(i + " \"Tired of beefin' you bums, you can't even pay me enough to react" ");
+  }
+}
