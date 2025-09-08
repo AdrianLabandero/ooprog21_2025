@@ -1,0 +1,23 @@
+public class FixDebug One
+{
+/* This program displays a greeting */
+public static void Main(String args)
+{
+Systm.out.println("Hello World!")
+}
+/*
+List down the spotted bugs below:
+e.g.
+- // wrong syntax for access modifier "publlic" instead of "public"
+Bugs:
+
+1. There's a space in class name (Invalid)
+2. Wrong placement of opening curly braces (usually after the class name)
+3. Using multi line "/* */"comment instead of single line "//"
+4. Capital "M" in main instead of small "m"
+5. No [] after String
+6. Wrong placement of opening curly braces (usually after parentheses)
+7. Wrong spelling "Systm" instead of "System"
+8. No Semicolon in println method
+9. No closing curly braces
+
