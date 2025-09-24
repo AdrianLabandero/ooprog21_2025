@@ -36,3 +36,13 @@ public class Activity3 {
    
 }
 
+/*
+ 1. no main method  
+ 2. wrong placement of opening bracket
+ 3. assigning parameter to parameter
+ 4. no void in methods
+ 5. wrong method names (Using Capital Letter)
+ */
+
+
+
