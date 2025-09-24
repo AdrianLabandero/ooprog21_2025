@@ -31,4 +31,6 @@ public class Activity1 {
  2. Semicolon after method
  3. Mispelled method name
  4. public void instead of public int
+ 5. no main method
  */
+
