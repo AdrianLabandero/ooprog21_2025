@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class CodingBankBalance {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double interestRate = 0.03;
+        
+        System.out.print("Enter the initial balance: ");
+        double balance = scanner.nextDouble();
+
+        int continueOption;
+        int year = 1;
+
+        while (year <= 1) {
+            balance += balance * interestRate;  
+            System.out.printf("After year %d at %.2f interest rate, balance is %.2f\n", year, interestRate, balance);
+            year++;  
+
+
+        System.out.print("\nDo you want to see the balance at the end of another year? Enter 1 for yes or any other number for no: ");
+        continueOption = scanner.nextInt();
+
+        while (continueOption == 1) {
+            balance += balance * interestRate; 
+            System.out.printf("After year %d at %.2f interest rate, balance is %.2f\n", year, interestRate, balance);
+            year++;  
+            
+            System.out.print("\nDo you want to see the balance at the end of another year? Enter 1 for yes or any other number for no: ");
+            continueOption = scanner.nextInt();
+        }
+
+        System.out.println("Operation Completed");
+
+        scanner.close();
+    }
+    }
+}
