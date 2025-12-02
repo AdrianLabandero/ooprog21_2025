@@ -1,1 +1,29 @@
+import java.util.Arrays;
 
+public class ArraysDemo {
+    public static void main(String[] args) {
+        
+        
+        int[] numbers = {5, 2, 9, 1, 7};
+
+        
+        System.out.println("Original array:");
+        System.out.println(Arrays.toString(numbers));
+
+        
+        Arrays.fill(numbers, 8);
+        System.out.println("\nArray after filling with 8:");
+        System.out.println(Arrays.toString(numbers));
+
+        
+        numbers[0] = 3;  
+        numbers[2] = 10;  
+        System.out.println("\nArray after changing two elements:");
+        System.out.println(Arrays.toString(numbers));
+
+        
+        Arrays.sort(numbers);
+        System.out.println("\nArray after sorting:");
+        System.out.println(Arrays.toString(numbers));
+    }
+}
